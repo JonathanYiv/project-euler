@@ -1,0 +1,1 @@
+# duly note: I am not strong on blocks, procs, and methods that call them. Need more practice
