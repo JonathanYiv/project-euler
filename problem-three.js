@@ -9,9 +9,10 @@ function verifyPrime(number) {
 
  		 } 
 
- 		 return true;
-
 	}
+
+	return true;
+	
 }
 
 function largestPrimeFactor(number) {
