@@ -48,23 +48,33 @@ puts largestPrimeFactor(600851475143)
 # loop as the number gets smaller
 
 =begin
-
+	
+rescue Exception => e
+	
+end
 def primeFactor(number)
+
+	numberHolder = number 
+
 	for i in 1..number
 
 		if( (number.to_f / i) === (number / i).to_f ) 
 			
 			if verifyPrime(i) 
 
-				number = number / i
+				numberHolder = number / i
 
 				factor = i
+
+				return
 
 			end
 
 		end
 
 	end
+
+	primeFactor 
 
 end
 
